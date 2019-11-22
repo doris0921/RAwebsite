@@ -1,6 +1,3 @@
-.titleBar{
-	top:0px;
-}
 body{
 	margin: 0 auto;
 
@@ -20,12 +17,15 @@ li{list-style: none;}
 
 .navbar-custom {
 	background-color: #778da9;
+	position: relative;
+	margin:0 auto;
 }
 
 .navbar-custom .nav-item .nav-link{
 	color: #fff;
 	font-size: 16pt;
 	font-family: Microsoft JhengHei;
+	margin:0 auto;
 }
 
 .title #title{
@@ -58,3 +58,90 @@ li{list-style: none;}
 	float: right;
 }
 
+.rubber{
+	width: 400px;
+	height: 200px;
+	overflow: hidden;
+	float: left;
+}
+.rubber3{
+	width: 400px;
+	height: 200px;
+	overflow: hidden;
+}
+
+#rubber img{
+	height: 500px;
+	margin-top:-10px ;
+	
+}
+
+#date{
+	width: 120px;
+	height:50px;
+	background-color: #415A78;
+	color: #fff;
+	font-size:12pt;
+	font-family: Microsoft JhengHei;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+}
+
+#context{
+	width: 700px;
+	height: 50px;
+	background-color: #E0E1DC;
+	color: #000000;
+	font-size:12pt;
+	font-family: Microsoft JhengHei;
+	text-align: left;	
+	line-height: 50px;
+}
+
+.new_context{
+	width:620px ;
+	height: 150px;
+	margin: 0px auto;
+}
+
+#news{
+	width: 100%;
+	height: 300px;
+
+} 
+.context_title{
+	text-align: center;
+	font-size:40pt;
+	font-family: Microsoft JhengHei;
+}
+#publish{
+	width: 100%;
+	height: 400px;
+	background-color: #0e1b2a;
+}
+
+#publish .context_title,#publish div h3,#publish div p{
+	color: #fff;
+	font-family: Microsoft JhengHei;
+}
+
+#publish img{
+	margin-left: 15%;
+	float: left;
+}
+
+#publish_intro{
+	width:620px ;
+	height: 150px;
+	margin: 0px auto;
+	background-color: #415A78;
+}
+#publish div h3,#publish div p{
+text-align: center;
+}
+
+#publish div h3{
+	margin-top: 150px;
+}
+}
