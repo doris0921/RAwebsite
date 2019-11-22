@@ -1,0 +1,60 @@
+.titleBar{
+	top:0px;
+}
+body{
+	margin: 0 auto;
+
+}
+
+li{list-style: none;}
+.title{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	background-color: #0e1b2a;
+	width: 100%;
+	height: 91px;
+	position: relative;
+	margin:0 auto;
+}
+
+.navbar-custom {
+	background-color: #778da9;
+}
+
+.navbar-custom .nav-item .nav-link{
+	color: #fff;
+	font-size: 16pt;
+	font-family: Microsoft JhengHei;
+}
+
+.title #title{
+	text-align: left;
+}
+.title #language{
+	text-align: right;
+}
+
+#title_C{
+	color: #fff;
+	font-size:24pt;
+	font-family: Microsoft JhengHei;
+	margin-top: 10px;
+}
+
+#title_E{
+	color: #778da9;
+	font-size:12pt;
+	font-family: Microsoft JhengHei;
+	float: left;
+}
+
+#language_C,#language_E{
+	color: #fff;
+	font-size:12pt;
+	font-family: Microsoft JhengHei;
+	text-align: right;
+	margin-top: 55px;
+	float: right;
+}
+
