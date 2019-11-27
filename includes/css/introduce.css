@@ -1,0 +1,92 @@
+.introduce{
+    width: 100%;
+    height: 400px;
+    background-color: #415A78;
+    color:#fff;
+    font-size: 40pt;
+    text-align: center;
+    position: absolute;
+}
+
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    position: relative;
+    background-color: #fff;
+}
+table{
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 70px;
+}
+th,td{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#logo{
+    background-color:  #415A78;
+    border-color: #415A78;
+}
+
+table tr th img{
+    filter:drop-shadow(0px 0px 15px rgba(0,0,0,.5));  
+}
+.name{
+    background-color: #E0E1DC;
+}
+
+.history{
+    width: 100%;
+    height: 100px;
+    background-color: #1B263A;
+    color:#fff;
+    font-size: 40pt;
+    text-align: center;
+    top: 50pt;
+}
+.history_contact{
+    width:550px;
+    height:300px;
+    margin: 0 auto;
+    margin-top: 50pt;
+    margin-bottom: 50pt;
+}
+iframe{
+    width:550px;
+    height:300px;
+    background-color: #E0E1DC;
+    margin: 0 auto;
+}
+
+#structure img{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.word{
+    width: 100%;
+    height: 100px;
+    background-color: #1B263A;
+    color:#fff;
+    font-size: 40pt;
+    text-align: center;
+    top: 500pt;
+}
+
+.button{
+    width: 50%;
+    margin: 0 auto;
+}
+.btn_screen{
+    height: 50px;
+	width: 120px;
+	background-color: #81D6B5;
+	border: none;
+    border-radius: 15px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
