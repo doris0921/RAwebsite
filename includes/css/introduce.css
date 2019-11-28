@@ -87,6 +87,48 @@ iframe{
 	background-color: #81D6B5;
 	border: none;
     border-radius: 15px;
-    margin-left: 100px;
-    margin-bottom: 20px;
 }
+
+.button .btn_screen{
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+#member{
+    height: 500px;
+}
+#member ul li ul{ /*小標*/
+    display: none;
+    padding: 0; 
+   
+
+}
+#member ul li{ /*大標*/
+    float: left;
+    z-index: 10;
+/*    margin-left: 20px;
+    margin-top: 50px;
+    background-color: #415A78;/*底霸葛用，記得砍掉*/
+    /*position: absolute;/*全部重疊辣!!!!!!*/
+}
+
+#member ul{
+    width: 500px;
+    margin: 0 auto;
+    
+}
+#member ul li:hover>ul{
+    width: 120px;
+    display: block;
+    color: black;
+    padding: 0 auto;
+    background-color:#1B263A ;/*底霸葛用，記得砍掉*/
+  /*  position: absolute;*/
+    z-index: 100;
+}
+
+#member ul li::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
