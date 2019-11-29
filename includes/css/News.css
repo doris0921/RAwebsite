@@ -1,0 +1,65 @@
+#news{
+    width: 100%;
+    height: 800px;
+}
+
+
+#calander{
+    width: 500px;
+    height: 50px;   
+    margin: 0 auto;
+}
+
+ #calander #range1,#calander #range2{
+     margin-top: 20px;
+     margin-left: 10px;
+     float: left;
+     background-color:#778da9;
+     color: #fff;
+ }
+
+ #search{
+    margin-top: 20px;
+    margin-left: 10px;
+     width: 30px;
+     height: 30px;
+ }
+
+ .category{
+     width: 800px;
+     margin: 0 auto;
+ }
+
+ .category button{
+     background-color: #0e1b2a;
+     color: #fff;
+     width: 150px;
+     height: 40px;
+     border-radius: 10px;
+     font-size: 16pt;
+     margin-top: 20px;
+     margin-left: 20px;
+     margin-bottom: 20px;
+ }
+ #change{
+	width:100% ;
+	height: 100px;
+	margin-top: 20px;
+	text-align: center;
+    color: #000;
+    
+}
+ #change_pg #change{
+    width: 250px;
+    height: 25px;
+    margin: 0px auto;
+
+}
+/*#change_pg #change li{
+	margin-top: 20px;
+   text-align: center;
+}*/
+
+#first,#now,#last{
+	float: left;
+}

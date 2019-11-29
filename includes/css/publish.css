@@ -1,0 +1,16 @@
+#how2buy{
+    text-align: center;
+}
+
+#publish_btn{
+    text-align: center;
+}
+
+#publish_btn button{
+    height: 50px;
+	width: 120px;
+	background-color: #81D6B5;
+	border: none;
+    border-radius: 15px;
+    margin-left: 50px;
+}
