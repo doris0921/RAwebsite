@@ -1,0 +1,60 @@
+.message{
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.message table{
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+}
+table,tr,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.message table .head{
+    background-color: #415A78;
+    height: 50px;
+}
+
+.message table .contact{
+    background-color: #E0E1DC;
+    height: 150px;
+}
+.message .image{
+    width: 80px;
+}
+.head{
+    color: white;
+}
+.head ul #data{
+    float: right;
+    padding-right:15px;
+}
+.head ul #data a img{
+    float: right;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.head ul #tema{
+    float: left;
+}
+
+.answer{
+    text-align: center;
+}
+.button{
+    width: 120px;
+    margin: 0 auto;
+}
+.btn_screen{
+    height: 50px;
+	width: 120px;
+	background-color: #81D6B5;
+	border: none;
+    border-radius: 15px;
+    margin-top: 10px;
+}

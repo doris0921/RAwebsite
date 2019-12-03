@@ -14,3 +14,35 @@
     border-radius: 15px;
     margin-left: 50px;
 }
+
+.books{
+    width: 80%;
+    margin-left: 15%;
+    margin-top: 50pt;
+}
+
+.explain{
+    font-size: 20pt;
+}
+
+.explain_more{
+    font-size: 14pt;
+}
+
+.book_title{
+    font-size: 22pt;
+}
+.publish_date,.publish_cost{
+    font-size: 18pt;
+}
+
+table tr td img{
+    box-shadow:5px 5px 15px #000; 
+}
+
+#journal_contact{
+    width: 50%;
+    height: 350px;
+    margin: 0 auto;
+    background-color: #81D6B5;
+}
