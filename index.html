@@ -3,13 +3,11 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="includes/css/index.css">
-        <link rel="stylesheet" type="text/css" href="bootstrap-4.3.1-dist/css/bootstrap.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="bootstrap-4.3.1-dist/css/bootstrap.css">       
         <title>台灣橡膠暨彈性體工業同業公會</title> 
     </head>
     <body style="font-family: Microsoft JhengHei; margin: 0 auto;  ">
+        <button class="GoToTop">TOP</button>
            <div class="title">
                     <div id="language">
                         <li id="language_E">ENGLISH  </li>
@@ -51,10 +49,12 @@
                 </ul>
                 </div>
                 </nav>
-                <div class="rubber">
-                    <img src="includes/images/rubber1.jpg">
-                    <img src="includes/images/rubber2.jpg">
-                    <img src="includes/images/rubber3.jpg">
+                <div class="c-carousel">
+                    <ul class="c-carousel__slides">
+                    <li><img src="includes/images/rubber1.jpg"></li>
+                    <li><img src="includes/images/rubber2.jpg"></li>
+                    <li><img src="includes/images/rubber3.jpg"></li>
+                </ul>
                 </div>
 			</div>
 			<div id="news">
@@ -71,7 +71,7 @@
                 <div id="publish_intro">
                     <li><h3>橡膠彈性體工業出版品</h3></li>
                     <li><p>相關產業動態，及時橡膠資訊</p></li>
-                    <li><button  style="vertical-align: middle"><span>詳細資訊</span></button></li>
+                    <li><button  style="vertical-align: middle"><a href="publish.html"><span>詳細資訊</span></a></button></li>
                 </div>
             </div>
             <div id="contact">	
@@ -79,8 +79,9 @@
                             台北市中正區寧波東街7號  7, Ningpo East Street, Taipei, Taiwan, R.O.C.<br/>
                             TEL:886-2-23512261-5 FAX:886-2-23918886 <br/>
                             Copyright@2007 Taiwan Rubber & Elastomer Industries Association</p></div>
-                            <button class="contact_link">立即聯絡我們</button>
+                            <button class="contact_link"><a href="#"> 立即聯絡我們</a></button>
             </div>
+            
             <div id="bottom">
                 <ul id="a_h">
                     <li id="access">會址交通 |</li>
@@ -90,5 +91,10 @@
                     <li>Copyright@2007 Taiwan Rubber & Elastomer Industries Association</li>
                 </ul>
             </div>
+            <script src="jquery-3.4.1.js"></script> 
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+            <script type="text/javascript" src="includes/js/index.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     </body>
 </html>

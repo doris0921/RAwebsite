@@ -1,4 +1,11 @@
-function HowToEnter(){
-    window.open("HowToEnter.html","newwindow",
-    "height=100, width=400, toolbar=no, menubar=no, scrollbars=no, resizable=no, location=no, status=no")
+function centerHandler(){
+var scrollDist=$(window).scrollTop();
+var myTop=($(window).height()-$("#popWindow").height())/2+scrollDist;
+
+var myLeft=($(window).width()-$("#popWindow").width())/2;
+
+$("#popWindow").offset({top:myTop,left:myLeft});
+centerHandler (); 
+$(window).scroll(centerHandler); 
+$(window).resize(centerHandler); 
 }
