@@ -46,10 +46,10 @@ var carousel = function carousel(options) {
             this.width = slides.offsetWidth;
 
             // Repeat elements
-            slides.innerHTML = slides.innerHTML + slides.innerHTML + slides.innerHTML;
+           slides.innerHTML = slides.innerHTML + slides.innerHTML+slides.innerHTML + slides.innerHTML;
 
             this._registerEvents();
-            this._animate();
+           this._animate();
         },
         _registerEvents: function _registerEvents() {
             var _this = this;
@@ -76,7 +76,7 @@ var carousel = function carousel(options) {
             var _this2 = this;
 
             var slides = this._slides;
-            var oneThird = slides.lastElementChild.getBoundingClientRect().right / 3;
+            var oneThird = slides.lastElementChild.getBoundingClientRect().right / 4;
             var framesCount = 0;
             var step = 0;
             var posX = 0;
@@ -84,7 +84,7 @@ var carousel = function carousel(options) {
             var animate = function animate() {
                 if (!_this2.paused) {
 
-                    framesCount = _this2.options.speed * 60 / 1000;
+                    framesCount = _this2.options.speed * 30 / 1000;
                     step = oneThird / framesCount;
 
                     posX += _this2.options.reverse ? step : -step;
@@ -103,7 +103,7 @@ var carousel = function carousel(options) {
                 }
                 !_this2.stopped && requestAnimationFrame(animate);
             };
-            animate();
+          animate();
         }
     };
 

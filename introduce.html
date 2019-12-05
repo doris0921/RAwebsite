@@ -104,9 +104,22 @@
                 <iframe name="show" id="show" frameborder="0" src="word.txt"></iframe>
             </div>
             <div class="button">
-            <button class="btn_screen" onclick="centerHandler()">入會辦法</button>
-            
-            <button class="btn_screen" >會址交通</button>
+            <button class="btn_screen"  onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">
+                <a href = "#">入會辦法</a>
+            </button>
+            <div id="light" class="white_content">
+                    <a href = "#" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">X</a>123456
+                  </div> 
+                  <div id="fade" class="black_overlay"></div> 
+                  <div id="over" onclick="hide()"></div>
+                  <button class="btn_screen">
+                        <a href = "#" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">會址交通</a>
+                    </button>
+                    <div id="light" class="white_content">
+                            <a href = "#" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">X</a>
+                          </div> 
+                          <div id="fade" class="black_overlay" onclick="history.go(-1)"></div> 
+                          <div id="over" onclick="history.go(-1)"></div>
             </div>  
             <div class="word">會員名錄</div>
             <div id="member">
@@ -145,7 +158,7 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
         <script type="text/javascript" language="javascript" src="includes/js/jquery-3.4.1.js"></script>
         <script type="text/javascript" language="javascript" src="includes/js/introduce.js"></script>
-        <script type="text/javascript" language="javascript" src="includes/js/index.js"></script>
+    
     </body>
     </html>
     </body>
