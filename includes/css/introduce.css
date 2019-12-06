@@ -46,7 +46,8 @@ table tr th img{
     color:#fff;
     font-size: 40pt;
     text-align: center;
-    top: 50pt;
+    line-height: 100px;
+
 }
 .history_contact{
     width:550px;
@@ -75,11 +76,14 @@ iframe{
     font-size: 40pt;
     text-align: center;
     top: 500pt;
+    line-height: 100px;
 }
-
+/*入會辦法&會址交通*/
 .button{
-    width: 50%;
+    width: 80%;
+    height: 150px;
     margin: 0 auto;
+    background-color: #415A78;
 }
 .btn_screen{
     height: 50px;
@@ -87,6 +91,7 @@ iframe{
 	background-color: #81D6B5;
 	border: none;
     border-radius: 15px;
+    margin: 0 auto;
 }
 
 .button .btn_screen{
@@ -99,40 +104,53 @@ iframe{
     text-decoration:none;
 }
 
+/*會員名錄*/
 .word{
     clear: both;
 }
 #member{
     height: 500px;
+
 }
+
 #member ul li ul{ /*小標*/
     display: none;
     padding: 0; 
-   
-
 }
-#member ul li{ /*大標*/
+#member ul li ,#member ul li .btn_members,#member ul li ul .btn_members_l{ /*大標*/
+    height: 50px;
+	width: 120px;
+    background-color: #81D6B5;
+    color: #000;
+	border: none;
+    border-radius: 15px;
     float: left;
-    z-index: 10;
+    z-index: 1;
 /*    margin-left: 20px;
     margin-top: 50px;
     background-color: #415A78;/*底霸葛用，記得砍掉*/
     /*position: absolute;/*全部重疊辣!!!!!!*/
 }
 
+#member ul li ul .btn_members_l{
+    background-color: #E0E1DC;
+    z-index: 99;
+}
+#member ul li{
+    margin-left: 20px;
+    background-color: #1B263A;
+}
 #member ul{
     width: 500px;
-    margin: 0 auto;
-    
+    margin: 0 auto;  
 }
 #member ul li:hover>ul{
     width: 120px;
     display: block;
     color: black;
     padding: 0 auto;
-    background-color:#1B263A ;/*底霸葛用，記得砍掉*/
   /*  position: absolute;*/
-    z-index: 100;
+    
 }
 
 #member ul li::after{
@@ -140,10 +158,15 @@ iframe{
     display: block;
     clear: both;
 }
+ul li .btn_members a{
+    color: black;
+    text-decoration:none;
+}
 
+/*入會辦法&會址交通*/
 .black_overlay{ 
     display: none; 
-    position: absolute; 
+    position: fixed; 
     top: 0%; 
     left: 0%; 
     width: 100%; 
@@ -153,27 +176,44 @@ iframe{
     -moz-opacity: 0.8; 
     opacity:.80; 
     filter: alpha(opacity=88); 
+    overflow-y: hidden;
 } 
 .white_content { 
     display: none; 
-    position: absolute; 
+    position: fixed; 
     top: 25%; 
     left: 25%; 
-    width: 55%; 
-    height: 55%; 
+    width: 50%; 
+    height: 60%; 
     padding: 20px; 
     background-color: #E0E1DC; 
     z-index:1002; 
     overflow: auto; 
+    
 } 
-
+.white_content h2{
+    margin: 0 auto;
+    width: 150px;
+}
 .white_content a{
     width: 50px;
     height: 50px;
     border-radius: 40px;
     background-color: #415A78;
     color: #fff;
-    float: right;
+    position: absolute;
+    right: 10px;
+    top: 10px;
     text-align: center;
+    text-decoration:none;
     line-height: 50px;
+}
+.white_content a:hover{
+    text-decoration:none;
+    color: #fff;
+}
+#light_access iframe{
+    margin-top: 20px;
+    width: 500px;
+    height: 350px;
 }

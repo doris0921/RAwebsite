@@ -104,45 +104,51 @@
                 <iframe name="show" id="show" frameborder="0" src="word.txt"></iframe>
             </div>
             <div class="button">
-            <button class="btn_screen"  onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">
-                <a href = "#">入會辦法</a>
-            </button>
-            <div id="light" class="white_content">
-                    <a href = "#" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">X</a>123456
+                <button class="btn_screen">
+                    <a href = "#word" onclick = "document.getElementById('light_how').style.display='block';document.getElementById('fade_how').style.display='block'">入會辦法</a>
+                </button>
+                <div id="light_how" class="white_content">
+                    <h2>入會辦法</h2>
+                    <a href = "#" onclick = "document.getElementById('light_how').style.display='none';document.getElementById('fade_how').style.display='none';history.go(-1)">X</a>
+                    <iframe name="show" id="show" frameborder="0" src="HowToEnter.pdf"></iframe>
+                   
                   </div> 
-                  <div id="fade" class="black_overlay"></div> 
-                  <div id="over" onclick="hide()"></div>
+                  <div id="fade_how" class="black_overlay"></div>
                   <button class="btn_screen">
-                        <a href = "#" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">會址交通</a>
+                        <a href = "#word" onclick = "document.getElementById('light_access').style.display='block';document.getElementById('fade_access').style.display='block'">會址交通</a>
                     </button>
-                    <div id="light" class="white_content">
-                            <a href = "#" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">X</a>
-                          </div> 
-                          <div id="fade" class="black_overlay" onclick="history.go(-1)"></div> 
-                          <div id="over" onclick="history.go(-1)"></div>
+                    <div id="light_access" class="white_content">
+                            <h2>會址交通</h2>
+                            <a href = "#" onclick ="document.getElementById('light_access').style.display='none';document.getElementById('fade_access').style.display='none';history.go(-1)">X</a>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.0438341785584!2d121.51772481532433!3d25.032586444501398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a99c1e40424f%3A0x1d185410b0686a6c!2z5Y-w54Gj5qmh6Iag5pqo5b2I5oCn6auU5bel5qWt5ZCM5qWt5YWs5pyD!5e0!3m2!1szh-TW!2stw!4v1575602409323!5m2!1szh-TW!2stw" frameborder="0" style="border:0;" allowfullscreen=""></iframe></br>
+                            台北市捷運：新店線/中正紀念堂站(3號出口)</br>
+                            台北市公車：南門市場站 3、5、18、208、236、251、252</br>
+                            附近停車場：中正紀念堂地下停車場               
+                    </div> 
+                    <div id="fade_access" class="black_overlay"></div> 
+                          
             </div>  
             <div class="word">會員名錄</div>
             <div id="member">
                 <ul>
-                    <li><button class="btn_screen">橡膠原料</button>
-                        <ul><button class="btn_screen" id="btn1">人造橡膠</button></ul>
-                        <ul><button class="btn_screen" id="btn2">碳煙(填充劑)</button></ul>
-                        <ul><button class="btn_screen" id="btn3">橡膠化學品</button></ul>
-                        <ul><button class="btn_screen" id="btn4">其他橡膠原料</button></ul>                        
+                    <li><button class="btn_members"><a href = "#member" onclick = "document.getElementById('light_member').style.display='block';document.getElementById('fade_member').style.display='block'">橡膠原料</a></button>
+                        <ul><button class="btn_members_l">人造橡膠</button></ul>
+                        <ul><button  class="btn_members_l">碳煙(填充劑)</button></ul>
+                        <ul><button  class="btn_members_l">橡膠化學品</button></ul>
+                        <ul><button  class="btn_members_l">其他橡膠原料</button></ul>                        
                     </li>
-                    <li><button class="btn_screen">黑煙膠</button></li>
-                    <li><button class="btn_screen">充氣胎</button></li>
+                    <li><button class="btn_members">黑煙膠</button></li>
+                    <li><button class="btn_members">充氣胎</button></li>
                 </ul>
                 <ul>
-                        <li><button class="btn_screen">橡膠原料</button>
-                            <ul><button class="btn_screen">人造橡膠</button></ul>
-                            <ul><button class="btn_screen">碳煙(填充劑)</button></ul>
-                            <ul><button class="btn_screen">橡膠化學品</button></ul>
-                            <ul><button class="btn_screen">其他橡膠原料</button></ul>                           
-                        </li>
-                        <li><button class="btn_screen">黑煙膠</button></li>
-                        <li><button class="btn_screen">充氣胎</button></li>
+                        <li><button class="btn_members">橡膠原料</button></li>
+                        <li><button class="btn_members">黑煙膠</button></li>
+                        <li><button class="btn_members">充氣胎</button></li>
                 </ul>
+            </div>
+            <div id="fade_member" class="black_overlay"></div>
+            <div id="light_member" class="white_content">
+                    <a href = "#" onclick ="document.getElementById('light_member').style.display='none';document.getElementById('fade_member').style.display='none';history.go(-1)">X</a>
             </div>
             <div id="bottom">
                     <ul id="a_h">
