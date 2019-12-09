@@ -5,11 +5,7 @@
         <link rel="stylesheet" type="text/css" href="includes/css/index.css">
         <link rel="stylesheet" type="text/css" href="includes/css/introduce.css">
         <link rel="stylesheet" type="text/css" href="bootstrap-4.3.1-dist/css/bootstrap.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-        <script type="text/javascript" language="javascript" src="includes/js/jquery-3.4.1.js"></script>
-        <script type="text/javascript" language="javascript" src="includes/js/introduce.js"></script>
+        
         <title>台灣橡膠暨彈性體工業同業公會</title> 
     </head>
     <body style="font-family: Microsoft JhengHei; margin: 0 auto;  ">
@@ -25,11 +21,15 @@
                         <li id="title_E">TAIWAN RUBBER & ELASTOMER INDUSTRIES ASSOCIATION</li>
                     </div>
             </div>
-            <nav class="navbar navbar-expand-sm sticky-top navbar-custom">
-                    <!-- Links -->
-                    <div class="mx-auto">
-                    <ul class="navbar-nav nav-fill w-100">
-                    <li class="nav-item">
+            <nav class="navbar navbar-expand-md navbar-dark">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                            <!-- .navbar-toggler-icon 漢堡式選單Icon -->
+                            <span class="navbar-toggler-icon"></span>
+                    </button>
+                <!-- Links -->
+                <div  class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
                         <a class="nav-link" href="introduce.html">公會簡介</a>
                     </li>
                     <li class="nav-item">
@@ -54,6 +54,7 @@
                         <a class="nav-link" href="#">廠商管理</a>
                     </li>
                 </ul>
+                
                 </div>
                 </nav>
             <div class="introduce">公會基本資料</div>
@@ -110,7 +111,7 @@
                 <div id="light_how" class="white_content">
                     <h2>入會辦法</h2>
                     <a href = "#" onclick = "document.getElementById('light_how').style.display='none';document.getElementById('fade_how').style.display='none';history.go(-1)">X</a>
-                    <iframe name="show" id="show" frameborder="0" src="HowToEnter.pdf"></iframe>
+                    <iframe name="show" id="show" frameborder="0" src="HowToEnter.txt"></iframe>
                    
                   </div> 
                   <div id="fade_how" class="black_overlay"></div>
@@ -129,21 +130,19 @@
                           
             </div>  
             <div class="word">會員名錄</div>
-            <div id="member">
+            <div id="member" class="row">
                 <ul>
-                    <li><button class="btn_members"><a href = "#member" onclick = "document.getElementById('light_member').style.display='block';document.getElementById('fade_member').style.display='block'">橡膠原料</a></button>
-                        <ul><button class="btn_members_l">人造橡膠</button></ul>
-                        <ul><button  class="btn_members_l">碳煙(填充劑)</button></ul>
-                        <ul><button  class="btn_members_l">橡膠化學品</button></ul>
-                        <ul><button  class="btn_members_l">其他橡膠原料</button></ul>                        
+                    <li class="col-md-2 col-md-offset-2"><button class="btn_members" ><a href = "members.html">橡膠原料</a></button>
+                        <ul ><button class="btn_members_l"><a href = "members.html">人造橡膠</a></button></ul>
+                        <ul ><button  class="btn_members_l"><a href = "members.html">碳煙(填充劑)</a></button></ul>
+                        <ul><button  class="btn_members_l"><a href = "members.html">橡膠化學品</a></button></ul>
+                        <ul><button  class="btn_members_l"><a href = "members.html">其他橡膠原料</a></button></ul>                        
                     </li>
-                    <li><button class="btn_members">黑煙膠</button></li>
-                    <li><button class="btn_members">充氣胎</button></li>
-                </ul>
-                <ul>
-                        <li><button class="btn_members">橡膠原料</button></li>
-                        <li><button class="btn_members">黑煙膠</button></li>
-                        <li><button class="btn_members">充氣胎</button></li>
+                    <li class="col-md-2 col-md-offset-2"><button class="btn_members"><a href = "members.html">黑煙膠</a></button></li>
+                    <li class="col-md-2 col-md-offset-2"><button class="btn_members"><a href = "members.html">充氣胎</a></button></li>
+                    <li class="col-md-2 col-md-offset-2"><button class="btn_members"><a href = "members.html">橡膠原料</a></button></li>
+                    <li class="col-md-2 col-md-offset-2"><button class="btn_members"><a href = "members.html">黑煙膠</a></button></li>
+                    <li class="col-md-2 col-md-offset-2"><button class="btn_members"><a href = "members.html">充氣胎</a></button></li>
                 </ul>
             </div>
             <div id="fade_member" class="black_overlay"></div>
@@ -164,7 +163,7 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
         <script type="text/javascript" language="javascript" src="includes/js/jquery-3.4.1.js"></script>
         <script type="text/javascript" language="javascript" src="includes/js/introduce.js"></script>
-    
+
     </body>
     </html>
     </body>

@@ -80,24 +80,19 @@ iframe{
 }
 /*入會辦法&會址交通*/
 .button{
-    width: 80%;
-    height: 150px;
-    margin: 0 auto;
-    background-color: #415A78;
+    height: 150px;  
+    width: 80%;   
+    text-align: center;
 }
-.btn_screen{
+
+.button .btn_screen{
+    margin: 0 auto;
     height: 50px;
 	width: 120px;
 	background-color: #81D6B5;
 	border: none;
-    border-radius: 15px;
-    margin: 0 auto;
-}
-
-.button .btn_screen{
-    margin-left: 100px;
-    margin-bottom: 50px;
-    float: left;
+    border-radius: 15px;  
+    margin-left: 15%;
 }
 .button .btn_screen a{
     color: black;
@@ -110,46 +105,52 @@ iframe{
 }
 #member{
     height: 500px;
-
+    width: 100%;
+    margin: 0 auto;
 }
-
-#member ul li ul{ /*小標*/
-    display: none;
-    padding: 0; 
-}
-#member ul li ,#member ul li .btn_members,#member ul li ul .btn_members_l{ /*大標*/
+/*大標&小標一樣的地方*/
+#member ul li .btn_members,#member ul li ul .btn_members_l{ 
     height: 50px;
 	width: 120px;
     background-color: #81D6B5;
     color: #000;
-	border: none;
+	/*border: 1px solid black;*/ /*除錯用*/
     border-radius: 15px;
-    float: left;
-    z-index: 1;
-/*    margin-left: 20px;
-    margin-top: 50px;
-    background-color: #415A78;/*底霸葛用，記得砍掉*/
-    /*position: absolute;/*全部重疊辣!!!!!!*/
-}
 
-#member ul li ul .btn_members_l{
-    background-color: #E0E1DC;
-    z-index: 99;
+
 }
+/*小標*/
+#member ul li ul{ 
+    display: none;
+    padding: 0; 
+}
+#member ul li ul .btn_members_l{
+   background-color: #E0E1DC;
+    position: relative;
+    z-index: 999;
+}
+/*大標*/
 #member ul li{
-    margin-left: 20px;
-    background-color: #1B263A;
+    height: 50px;
+	width: 120px;
+    left: 20px;
+    top: 50px;
+    float: left;
 }
 #member ul{
-    width: 500px;
+    width: 80%;
     margin: 0 auto;  
 }
+.member ul #col-md-2{
+    margin-left: 200px;
+    top: 50px;
+}
+/*hover*/
 #member ul li:hover>ul{
     width: 120px;
     display: block;
     color: black;
     padding: 0 auto;
-  /*  position: absolute;*/
     
 }
 
@@ -158,9 +159,8 @@ iframe{
     display: block;
     clear: both;
 }
-ul li .btn_members a{
+ul li .btn_members a,ul li ul .btn_members_l a{
     color: black;
-    text-decoration:none;
 }
 
 /*入會辦法&會址交通*/
