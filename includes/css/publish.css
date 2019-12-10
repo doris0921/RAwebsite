@@ -26,9 +26,6 @@
     font-size: 20pt;
 }
 
-.explain_more{
-    font-size: 14pt;
-}
 
 .book_title{
     font-size: 22pt;
@@ -36,9 +33,25 @@
 .publish_date,.publish_cost{
     font-size: 18pt;
 }
-
-table tr td img{
+/*.publish_cost{
+    clear: both;
+}*/
+.book_img{
+    width: 190px;
+    margin-right: 30px;
     box-shadow:5px 5px 15px #000; 
+    float: left;
+    clear: both;
+}
+.book_contact{
+    width: 600px;
+    margin-top: 40px;
+    margin-left: 10px;
+
+}
+.explain_more{
+    font-size: 14pt;
+    clear: both;
 }
 
 #journal_contact{
