@@ -1,34 +1,28 @@
 .category{
     text-align: center;
     font-size: 40pt;
+    clear: both;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-table{
-    margin: 0 auto;
 
-}
-.company_pic{
-    width: 200px;
-    height: 200px;
-
-}
-
-.company_pic img{
+.card img{
     width: 100px;
-}
-.company_pic button{
+    height: 100px;
+    display:block; margin:auto;
+  }
+
+.card{
     background-color: #778da9;
     border: 5px solid #0e1b2a;
     border-radius: 5px;
-    box-shadow: 5px 5px 15px 3px #000000;
-    width: 150px;
-    height: 150px;
+    box-shadow: 5px 5px 15px 3px #000000;   
+    display: inline-block;
+    vertical-align: top;
 
 }
-.company_name{
-    text-align: center;
-    font-size: 14pt;
-}
+
 
 .company_pic a{
     font-size: 16pt;

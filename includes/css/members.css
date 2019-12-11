@@ -68,3 +68,7 @@
 #company_data tr td{
     padding-left: 4px;
 }
+
+.card div p a{
+    color:#000 ;
+}

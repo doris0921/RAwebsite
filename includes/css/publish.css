@@ -20,17 +20,18 @@
     width: 80%;
     margin-left: 15%;
     margin-top: 50pt;
+    clear: both;
 }
 
-.explain{
+.books .explain{
     font-size: 20pt;
 }
 
 
-.book_title{
+.books .book_contact .book_title{
     font-size: 22pt;
 }
-.publish_date,.publish_cost{
+.publish_date,.books .explain .book_contact .publish_cost{
     font-size: 18pt;
 }
 /*.publish_cost{
@@ -41,19 +42,30 @@
     margin-right: 30px;
     box-shadow:5px 5px 15px #000; 
     float: left;
-    clear: both;
 }
-.book_contact{
-    width: 600px;
+#new_publish .book_contact{
+    width: 400px;
+    height: 250px;
     margin-top: 40px;
     margin-left: 10px;
-
+    margin-right: 10px;
+    
+}
+#old_publish .book_contact{
+    width: 200px;
+    height: 250px;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
 }
 .explain_more{
     font-size: 14pt;
+    
+}
+.sub_title{
     clear: both;
 }
-
 #journal_contact{
     width: 50%;
     height: 350px;
