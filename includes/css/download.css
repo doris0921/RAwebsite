@@ -31,14 +31,27 @@
     text-decoration: underline;
 }
     
-.card-columns{
-    top: 20px;
+.member{
     height: 500px;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
+    padding-top: 50px;
 }
-.card{
-    height: 100px;
-    text-align: center;
+.member ul li .btn_members{ 
+    height:120px;
+    width: 120px;
+    background-color: #778da9;
+	border: 2px solid #0e1b2a; /*除錯用*/
+    border-radius: 15px;
+    float: left;
 }
-
+.member ul li .btn_members a{
+    color:#000000 ;
+}
+.member ul li{
+    left: 20px;
+}
+.member ul{
+    width: 80%;
+    margin: 0 auto;  
+}

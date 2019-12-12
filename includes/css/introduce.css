@@ -53,6 +53,18 @@ iframe{
     background-color: #E0E1DC;
     margin: 0 auto;
 }
+.white_content { 
+    display: none; 
+    position: fixed; 
+    top: 25%; 
+    left: 25%; 
+    width: 50%; 
+    height: 60%; 
+    padding: 20px; 
+    background-color: #E0E1DC; 
+    z-index:1002; 
+    overflow: auto; 
+} 
 }
 @media screen and (max-width:1030px){
     .introduce{
@@ -95,7 +107,17 @@ iframe{
         text-align: center;
         padding-right: 10px;
     }
-    
+    .white_content { 
+        display: none; 
+        position: fixed; 
+        top: 10%; 
+        left: 10%; 
+        width: 80%; 
+        height: 80%; 
+        background-color: #E0E1DC; 
+        z-index:1002; 
+        overflow: auto; 
+    } 
 }
 @media screen and (max-width:600px){
     table,th,td{
@@ -121,6 +143,17 @@ iframe{
         background-color: #E0E1DC;
         margin: 0 auto;
     }
+    .white_content { 
+        display: none; 
+        position: fixed; 
+        top: 10%; 
+        left: 0; 
+        width: 100%; 
+        height: 80%; 
+        background-color: #E0E1DC; 
+        z-index:1002; 
+        overflow: auto; 
+    } 
 }
 .name{
     background-color: #E0E1DC;
@@ -187,8 +220,8 @@ iframe{
 }
 /*大標&小標一樣的地方*/
 #member ul li .btn_members,#member ul li ul .btn_members_l{ 
-    height: 50px;
-	width: 120px;
+    height: 80px;
+	width: 130px;
     background-color: #81D6B5;
     color: #000;
 	/*border: 1px solid black;*/ /*除錯用*/
@@ -208,8 +241,8 @@ iframe{
 }
 /*大標*/
 #member ul li{
-    height: 50px;
-	width: 120px;
+    height: 100px;
+	width: 150px;
     left: 20px;
     top: 50px;
     float: left;
@@ -255,19 +288,7 @@ ul li .btn_members a,ul li ul .btn_members_l a{
     filter: alpha(opacity=88); 
     overflow-y: hidden;
 } 
-.white_content { 
-    display: none; 
-    position: fixed; 
-    top: 25%; 
-    left: 25%; 
-    width: 50%; 
-    height: 60%; 
-    padding: 20px; 
-    background-color: #E0E1DC; 
-    z-index:1002; 
-    overflow: auto; 
-    
-} 
+
 .white_content h2{
     margin: 0 auto;
     width: 150px;

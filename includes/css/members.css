@@ -1,6 +1,8 @@
-.category table .company_pic button a:hover{
-    color: white;
-    font-size: 16pt;
+.category{
+    font-size: 24pt;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .black_overlay{ 
@@ -17,6 +19,8 @@
     filter: alpha(opacity=88); 
     overflow-y: hidden;
 } 
+
+@media screen{
 .white_content { 
     display: none; 
     position: fixed; 
@@ -51,7 +55,35 @@
     text-decoration:none;
     color: #fff;
 }
+}
+@media screen and (max-width:900px){
+    .white_content { 
+        display: none; 
+        position: fixed; 
+        top: 10%; 
+        left: 10%; 
+        width: 80%; 
+        height: 80%;  
+        background-color: #E0E1DC; 
+        z-index:1002; 
+        overflow: auto; 
+    } 
 
+}
+@media screen and (max-width:560px){
+    .white_content { 
+        display: none; 
+        position: fixed; 
+        top: 10%; 
+        left: 0; 
+        width: 100%; 
+        height: 80%;  
+        background-color: #E0E1DC; 
+        z-index:1002; 
+        overflow: auto; 
+    } 
+
+}
 .data{
     background-color: #1B263A;
     color: #fff;
@@ -69,6 +101,30 @@
     padding-left: 4px;
 }
 
-.card div p a{
-    color:#000 ;
+.member{
+    height: 500px;
+    width: 100%;
+    margin: 0 auto;
 }
+.member ul li .btn_members{ 
+    height:120px;
+	width: 120px;
+    background-color: #778da9;
+	border: 2px solid #0e1b2a; /*除錯用*/
+    border-radius: 15px;
+    float: left;
+}
+.member ul li .btn_members a{
+    color:#000000 ;
+}
+.member ul li{
+    left: 20px;
+}
+.member ul{
+    width: 80%;
+    margin: 0 auto;  
+}
+/*.member ul #col-md-2{
+    margin-left: 200px;
+    top: 50px;
+}*/

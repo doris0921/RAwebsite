@@ -29,10 +29,10 @@
             <!-- Links -->
             <div  class="collapse navbar-collapse" id="navbarTogglerDemo01">
                 <ul class="navbar-nav mx-auto text-center">
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="introduce.html">公會簡介</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="News.html">最新消息</a>
                 </li>
                 <li class="nav-item">
@@ -65,11 +65,13 @@
                     <input type="text" class="datepicker" id="range2">
                     <img src="includes/images/search.png" id="search">
                 </div>
-                <div class="category">
-                    <button>最新新聞</button>
-                    <button>展覽資訊</button>
-                    <button>研討會</button>
-                    <button>原物料行情</button>
+                <div id="member">
+                    <ul>
+                        <li><button class="btn_members"><a href = "#">最新新聞</a></button></li>
+                        <li><button class="btn_members"><a href = "#">展覽資訊</a></button></li>
+                        <li><button class="btn_members"><a href = "#">研討會</a></button></li>
+                        <li><button class="btn_members"><a href = "#">原物料行情</a></button></li>
+                    </ul>
                 </div>
                 <div class="new_context">
                     <div id="dates">2019-10-31</div>
@@ -92,17 +94,15 @@
                     <li>Copyright@2007 Taiwan Rubber & Elastomer Industries Association</li>
                 </ul>
             </div>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
             <script src="includes/js/jquery-3.4.1.js"></script>
-            
-            
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-          <!-- <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+           <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>       
             <script>
             $( function() {
               $( ".datepicker" ).datepicker();
             } );
-            </script>--> 
+            </script>
     </body>
 </html>

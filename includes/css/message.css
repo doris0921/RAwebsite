@@ -1,50 +1,95 @@
-.message{
-    width: 80%;
-    height: 300px;
-    margin: 0 auto;
-    margin-top: 80px;
-}
-.message table{
-    width: 500px;
-    height: 300px;
-    margin: 0 auto;
-}
-table,tr,th{
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-.message table .head{
-    background-color: #415A78;
-    height: 50px;
-}
+@media screen{
+    .message{
+    padding-top: 20px;
+      width: 500px;
+      height: 300px;
+      margin: 0 auto;
+    
+    }
+    .message .head{
+      background-color: #415A78;
+      height: 50px;
+    }
+    
+    .message .contact #contact{
+      background-color: #E0E1DC;
+      height: 150px;
+      width: 380px;
+      margin-left: 120px;
+      margin-top: 0;
+    }
+    .message .contact #image img{
+      width: 120px;
+      height: 150px;
+    }
+    .message .contact #image{
+      width: 80px;
+      float: left;
+    }
+    .answer{
+      text-align: center;
+      width: 500px;
+      height: 150px;
+    }
+    }
 
-.message table .contact{
-    background-color: #E0E1DC;
-    height: 150px;
-}
-.message .image{
-    width: 80px;
-}
-.head{
-    color: white;
-}
-.head ul #data{
-    float: right;
-    padding-right:15px;
-}
-.head ul #data a img{
-    float: right;
-    width: 30px;
-    height: 30px;
-    border-radius: 5px;
-}
-
-.head ul #tema{
-    float: left;
-}
-
-.answer{
-    text-align: center;
+    @media screen and (max-width:750px){
+        .message{
+          width: 300px;
+          height: 300px;
+          margin: 0 auto;
+        
+        }
+        .message .head{
+          background-color: #415A78;
+          height: 50px;
+        }
+        
+        .message .contact #contact{
+          background-color: #E0E1DC;
+          height: 150px;
+          width: 300px;
+          margin-left: 0;
+          clear: both;
+        }
+        .message .contact #image img{
+          width: 120px;
+          height: 150px;
+        }
+        .message .contact #image{
+          width: 300px;
+          background-color: #778da9;
+          text-align: center;
+        }
+        .answer{
+          text-align: center;
+          width: 300px;
+          height: 150px;
+        }
+      }
+      .head ul{
+        color:#fff ;
+      }
+      .head ul #data{
+        float: right;
+        padding-right:15px;
+      }
+      .head ul #data a img{
+        float: right;
+        width: 30px;
+        height: 30px;
+        border-radius: 5px;
+      }
+      
+      .head ul #tema{
+        float: left;
+      }
+      .head,#contact,.answer{
+        border: 1px solid black;
+      }
+      
+#board{
+    height: 800px;
 }
 .button{
     width: 120px;
