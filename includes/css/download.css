@@ -32,14 +32,14 @@
 }
     
 .member{
-    height: 500px;
+    height: 700px;
     width: 100%;
     margin: 0 auto;
     padding-top: 50px;
 }
 .member ul li .btn_members{ 
-    height:120px;
-    width: 120px;
+    height:150px;
+    width: 150px;
     background-color: #778da9;
 	border: 2px solid #0e1b2a; /*除錯用*/
     border-radius: 15px;
@@ -49,7 +49,12 @@
     color:#000000 ;
 }
 .member ul li{
+    height: 150px;
+	width: 150px;
     left: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
 }
 .member ul{
     width: 80%;

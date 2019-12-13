@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
         <link rel="stylesheet" type="text/css" href="includes/css/index.css">
         <link rel="stylesheet" type="text/css" href="includes/css/message.css">
         <link rel="stylesheet" type="text/css" href="bootstrap-4.3.1-dist/css/bootstrap.css">
@@ -76,8 +77,21 @@
                 </div>
           </div>
         </div>  
-        <div class="button"><button class="btn_screen">我要留言</button></div>
-      
+        <div class="button"><button class="btn_screen"><a href = "#this_write_message" onclick = "document.getElementById('light_write_message').style.display='block';document.getElementById('fade_write_message').style.display='block'">我要留言</a></button></div>
+        <div id="light_write_message" class="white_content">
+            <h2 style="text-align:center;">我要留言</h2>
+            <a href = "#" onclick = "document.getElementById('light_write_message').style.display='none';document.getElementById('fade_write_message').style.display='none';history.go(-1)">X</a>
+            <form class="inputs">
+                <input type="text" placeholder="姓名">
+                <input type="text" placeholder="聯絡方式">
+                <input type="text" placeholder="主旨">
+                <textarea placeholder="輸入內容"></textarea>
+                <div style="text-align:center;">
+                <input type="submit">
+            </div>
+              </form>
+        </div> 
+        <div id="fade_write_message" class="black_overlay"></div>
         <div id="bottom">
                 <ul id="a_h">
                     <li id="access">會址交通 |</li>

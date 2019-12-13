@@ -26,9 +26,11 @@ li{list-style: none;}
 @media screen{
 .title #title{
 	text-align: left;
+	margin-left: 10px;
 }
 .title #language{
 	text-align: right;
+	margin-right: 10px;
 }
 
 #title_C a{
@@ -185,11 +187,6 @@ li{list-style: none;}
 		box-shadow:0px 0px 50px 0px #0e1b2a inset;  
 	}
 
-	.c-carousel img{
-		display: block;
-		width: 200px;
-		height: 100px;
-	}
 
 	.context_title{
 		text-align: center;
@@ -222,7 +219,7 @@ li{list-style: none;}
 	}
 	#publish img{
 		width: 40%;
-		margin-top: 3%;
+		margin-top: 2%;
 		margin-left: 5%;
 		float: left;
 		position: relative;
@@ -233,6 +230,7 @@ li{list-style: none;}
 	}
 	#publish #decorate{
 		width:100% ;
+		margin-top: 20px;
 		height: 15px;
 		background-image: linear-gradient(to right,rgb(21,170,102)0%,rgb(255,255,255)100%);
 		position: absolute;
@@ -246,9 +244,11 @@ li{list-style: none;}
 	}
 	#publish_intro li h3{
 		font-size: 18pt;
+		margin: 0px auto;
 	}
 	#publish_intro li p{
 		font-size: 10pt;
+		margin: 0px auto;
 	}
 	#publish_intro button{
 		height: 50px;
