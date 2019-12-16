@@ -9,7 +9,7 @@
         <title>台灣橡膠暨彈性體工業同業公會</title> 
     </head>
     <body style="font-family: Microsoft JhengHei; margin: 0 auto;  ">
-        <button class="GoToTop">TOP</button>
+        <button class="GoToTop" style="outline:none;">TOP</button>
         <div class="title">
                     <div id="language">
                         <li id="language_E">ENGLISH  </li>
@@ -47,7 +47,7 @@
                     <a class="nav-link" href="websites.html">相關網站</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">聯絡我們</a>
+                    <a class="nav-link" href="#"onclick = "document.getElementById('light_contact_us').style.display='block';document.getElementById('fade_contact_us').style.display='block'">聯絡我們</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">廠商管理</a>
@@ -56,6 +56,24 @@
             
             </div>
             </nav>
+            <div id="light_contact_us" class="white_content">
+                <h2 style="text-align:center;">聯絡我們</h2>
+                <a href = "" onclick = "document.getElementById('light_contact_us').style.display='none';document.getElementById('fade_contact_us').style.display='none';history.go(-1)">X</a>
+                <form class="inputs">
+                    <select name="carlist" form="carform">
+                        <option value="opel">聯絡我們</option>
+                        <option value="saab">人才求職</option>
+                      </select>
+                    <input type="text" placeholder="姓名">
+                    <input type="text" placeholder="聯絡方式">
+                    <input type="text" placeholder="主旨">
+                    <textarea placeholder="輸入內容(求職請填寫基本資料及相關履歷)"></textarea>
+                    <div style="text-align:center;">
+                    <input type="submit">
+                </div>
+                  </form>
+            </div> 
+            <div id="fade_contact_us" class="black_overlay"></div>
             <div class="sub_title">留言板</div>
             <div id="board">
             <div class="message">
@@ -77,7 +95,7 @@
                 </div>
           </div>
         </div>  
-        <div class="button"><button class="btn_screen"><a href = "#this_write_message" onclick = "document.getElementById('light_write_message').style.display='block';document.getElementById('fade_write_message').style.display='block'">我要留言</a></button></div>
+        <div class="button"><button class="btn_screen" style="outline:none;"><a href = "#this_write_message" onclick = "document.getElementById('light_write_message').style.display='block';document.getElementById('fade_write_message').style.display='block'">我要留言</a></button></div>
         <div id="light_write_message" class="white_content">
             <h2 style="text-align:center;">我要留言</h2>
             <a href = "#" onclick = "document.getElementById('light_write_message').style.display='none';document.getElementById('fade_write_message').style.display='none';history.go(-1)">X</a>

@@ -18,7 +18,7 @@
      color: #fff;
  }
 
- #search{
+#search{
     margin-top: 20px;
     margin-left: 10px;
      width: 30px;
@@ -27,7 +27,8 @@
 
  #member{
     height: 200px;
-    width: 100%;
+    width: 60%;
+    clear: left;
     margin: 0 auto;
 }
 #member ul li .btn_members{ 
@@ -44,12 +45,8 @@
 #member ul li .btn_members a{
     color:#fff ;
 }
-#member ul li{
-    left: 20px;
-   
-}
 #member ul{
-    width: 80%;
+    width: 100%;
     margin: 0 auto;  
 }
 
@@ -74,4 +71,26 @@
 
 #first,#now,#last{
 	float: left;
+}
+
+@media screen and (max-width:660px){
+    #member{
+        height: 150px;
+    }
+    #member ul{
+        width: 100%;
+        height: 50px;
+        margin: 0 auto;  
+    }
+    #member ul li .btn_members{ 
+        background-color: #0e1b2a;
+         width: 100px;
+         height: 40px;
+         border-radius: 10px;
+         font-size: 10pt;
+         margin-top: 20px;
+         margin-left: 20px;
+         margin-bottom: 10px;
+         float: left;
+    }
 }

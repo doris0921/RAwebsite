@@ -20,70 +20,7 @@
     overflow-y: hidden;
 } 
 
-@media screen{
-.white_content { 
-    display: none; 
-    position: fixed; 
-    top: 25%; 
-    left: 25%; 
-    width: 50%; 
-    height: 60%; 
-    padding: 20px; 
-    background-color: #E0E1DC; 
-    z-index:1002; 
-    overflow: auto; 
-    
-} 
-.white_content h2{
-    width: 80%;
-    margin: 0 auto;
-}
-.white_content a{
-    width: 50px;
-    height: 50px;
-    border-radius: 40px;
-    background-color: #415A78;
-    color: #fff;
-    position: absolute;
-    right: 10px;
-    top: 10px;
-    text-align: center;
-    text-decoration:none;
-    line-height: 50px;
-}
-.white_content a:hover{
-    text-decoration:none;
-    color: #fff;
-}
-}
-@media screen and (max-width:900px){
-    .white_content { 
-        display: none; 
-        position: fixed; 
-        top: 10%; 
-        left: 10%; 
-        width: 80%; 
-        height: 80%;  
-        background-color: #E0E1DC; 
-        z-index:1002; 
-        overflow: auto; 
-    } 
 
-}
-@media screen and (max-width:560px){
-    .white_content { 
-        display: none; 
-        position: fixed; 
-        top: 10%; 
-        left: 0; 
-        width: 100%; 
-        height: 80%;  
-        background-color: #E0E1DC; 
-        z-index:1002; 
-        overflow: auto; 
-    } 
-
-}
 .data{
     background-color: #1B263A;
     color: #fff;

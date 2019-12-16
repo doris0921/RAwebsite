@@ -1,12 +1,12 @@
 
 $("#book_click").click(function(){
     $('boddy,html').animate({
-        scrollTop:700},800);
+        scrollTop:$('#book_title').offset().top},800);
         return false;
 });
 
 $("#journal_click").click(function(){
     $('boddy,html').animate({
-        scrollTop:1700},800);
+        scrollTop:$('#journal_title').offset().top},800);
         return false;
 });

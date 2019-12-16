@@ -22,7 +22,7 @@
                     </div>
             </div>
             <nav class="navbar navbar-expand-md navbar-dark justify-content-center">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation" >
                         <!-- .navbar-toggler-icon 漢堡式選單Icon -->
                         <span class="navbar-toggler-icon"></span>
                 </button>
@@ -48,7 +48,7 @@
                     <a class="nav-link" href="websites.html">相關網站</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">聯絡我們</a>
+                    <a class="nav-link" href="#"onclick = "document.getElementById('light_contact_us').style.display='block';document.getElementById('fade_contact_us').style.display='block'">聯絡我們</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">廠商管理</a>
@@ -57,7 +57,24 @@
             
             </div>
             </nav>
-            
+            <div id="light_contact_us" class="white_content">
+                <h2 style="text-align:center;">聯絡我們</h2>
+                <a href = "" onclick = "document.getElementById('light_contact_us').style.display='none';document.getElementById('fade_contact_us').style.display='none';history.go(-1)">X</a>
+                <form class="inputs">
+                    <select name="carlist" form="carform">
+                        <option value="opel">聯絡我們</option>
+                        <option value="saab">人才求職</option>
+                      </select>
+                    <input type="text" placeholder="姓名">
+                    <input type="text" placeholder="聯絡方式">
+                    <input type="text" placeholder="主旨">
+                    <textarea placeholder="輸入內容(求職請填寫基本資料及相關履歷)"></textarea>
+                    <div style="text-align:center;">
+                    <input type="submit">
+                </div>
+                  </form>
+            </div> 
+            <div id="fade_contact_us" class="black_overlay"></div>
 			<div id="news">
                 <div class="sub_title">最新消息</div>
                 <div id="calander">
@@ -67,15 +84,15 @@
                 </div>
                 <div id="member">
                     <ul>
-                        <li><button class="btn_members"><a href = "#">最新新聞</a></button></li>
-                        <li><button class="btn_members"><a href = "#">展覽資訊</a></button></li>
-                        <li><button class="btn_members"><a href = "#">研討會</a></button></li>
-                        <li><button class="btn_members"><a href = "#">原物料行情</a></button></li>
+                        <li><button class="btn_members" style="outline:none;"><a href = "#">最新新聞</a></button></li>
+                        <li><button class="btn_members" style="outline:none;"><a href = "#">展覽資訊</a></button></li>
+                        <li><button class="btn_members" style="outline:none;"><a href = "#">研討會</a></button></li>
+                        <li><button class="btn_members" style="outline:none;"><a href = "#">原物料行情</a></button></li>
                     </ul>
                 </div>
                 <div class="new_context">
                     <div id="dates">2019-10-31</div>
-                    <div id="context">Text</div>
+                    <div id="context">檢送經濟部預告「商品驗證登錄辦法」部分條文修正草案</div>
                 </div>
                 <div id="change_pg">
                     <ul id="change">

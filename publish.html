@@ -10,7 +10,7 @@
         <title>台灣橡膠暨彈性體工業同業公會</title> 
     </head>
     <body style="font-family: Microsoft JhengHei; margin: 0 auto;  ">
-        <button class="GoToTop">TOP</button>
+        <button class="GoToTop" style="outline:none;">TOP</button>
            <div class="title">
                     <div id="language">
                         <li id="language_E">ENGLISH  </li>
@@ -48,7 +48,7 @@
                     <a class="nav-link" href="websites.html">相關網站</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">聯絡我們</a>
+                    <a class="nav-link" href="#"onclick = "document.getElementById('light_contact_us').style.display='block';document.getElementById('fade_contact_us').style.display='block'">聯絡我們</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">廠商管理</a>
@@ -57,6 +57,24 @@
             
             </div>
             </nav>
+            <div id="light_contact_us" class="white_content">
+                <h2 style="text-align:center;">聯絡我們</h2>
+                <a href = "" onclick = "document.getElementById('light_contact_us').style.display='none';document.getElementById('fade_contact_us').style.display='none';history.go(-1)">X</a>
+                <form class="inputs">
+                    <select name="carlist" form="carform">
+                        <option value="opel">聯絡我們</option>
+                        <option value="saab">人才求職</option>
+                      </select>
+                    <input type="text" placeholder="姓名">
+                    <input type="text" placeholder="聯絡方式">
+                    <input type="text" placeholder="主旨">
+                    <textarea placeholder="輸入內容(求職請填寫基本資料及相關履歷)"></textarea>
+                    <div style="text-align:center;">
+                    <input type="submit">
+                </div>
+                  </form>
+            </div> 
+            <div id="fade_contact_us" class="black_overlay"></div>
 			</div>
             <div class="sub_title">出版刊物</div>
             <div id="how2buy"><p></br>
@@ -79,8 +97,8 @@
                    訂書單請詳填郵寄地址,發票抬頭,公司名稱,連絡電話及聯絡人等資料.</br>
                    我們將於款項入帳後寄出.</p></div>
             <div id="publish_btn">
-                <button id="book_click">書籍</button>
-                <button id="journal_click">期刊</button>
+                <button id="book_click" style="outline:none;">書籍</button>
+                <button id="journal_click" style="outline:none;">期刊</button>
             </div>
             <div class="sub_title" id="book_title">書籍</div>
             <div class="books" id="new_publish" class="row">
@@ -116,10 +134,23 @@
                         <p class="publish_cost">售價：1200元</p>
                     </div>        
             </div>
-            <div class="sub_title">期刊</div>
+            <div class="sub_title" id="journal_title">期刊</div>
 
             <div class="journal">
-            <div id="journal_contact">Text</div>
+            <div id="journal_contact">期刊名：2011年2月橡膠工業月刊</br>
+</br>
+                作者：台灣橡膠暨彈性體工業同業公會</br>
+            </br>
+                2011    NO.2   目錄:</br>
+                ＊汽車輪胎工學(九)</br>
+                ＊模內流動性質和硫化行為及模設計</br>
+                ＊橡膠軟管技術進展(二)-軟管用補強材料</br>
+                ＊馬來西亞2010年11月份天然橡膠產量</br>
+                ＊宏都拉斯共合國投資環境暨橡膠產業介紹</br>
+                ＊橡膠製品/原料進出口統計表</br>
+                ＊合成橡膠進口參考價格</br>
+                ＊常用天然橡膠價格趨勢</br>
+                ＊權與色的誘惑(中)</div>
             </div>
                 <div id="bottom">
                 <ul id="a_h">

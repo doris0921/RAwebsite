@@ -9,7 +9,7 @@
         <title>台灣橡膠暨彈性體工業同業公會</title> 
     </head>
     <body style="font-family: Microsoft JhengHei; margin: 0 auto;  ">
-        <button class="GoToTop">TOP</button>
+        <button class="GoToTop" style="outline:none;">TOP</button>
            <div class="title">
                     <div id="language">
                         <li id="language_E">ENGLISH  </li>
@@ -47,7 +47,7 @@
                     <a class="nav-link" href="websites.html">相關網站</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">聯絡我們</a>
+                    <a class="nav-link" href="#"onclick = "document.getElementById('light_contact_us').style.display='block';document.getElementById('fade_contact_us').style.display='block'">聯絡我們</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">廠商管理</a>
@@ -56,16 +56,33 @@
             
             </div>
             </nav>
-            
+            <div id="light_contact_us" class="white_content">
+                <h2 style="text-align:center;">聯絡我們</h2>
+                <a href = "" onclick = "document.getElementById('light_contact_us').style.display='none';document.getElementById('fade_contact_us').style.display='none';history.go(-1)">X</a>
+                <form class="inputs">
+                    <select name="carlist" form="carform">
+                        <option value="opel">聯絡我們</option>
+                        <option value="saab">人才求職</option>
+                      </select>
+                    <input type="text" placeholder="姓名">
+                    <input type="text" placeholder="聯絡方式">
+                    <input type="text" placeholder="主旨">
+                    <textarea placeholder="輸入內容(求職請填寫基本資料及相關履歷)"></textarea>
+                    <div style="text-align:center;">
+                    <input type="submit">
+                </div>
+                  </form>
+            </div> 
+            <div id="fade_contact_us" class="black_overlay"></div>
             <div class="sub_title">資料下載</div>
             <div class="member">
                 <ul>
-                    <li><button class="btn_members"><a href = "#">中國大陸輸美之越野輪胎(Off-the Road Tires)反傾銷</a></button></li>
-                    <li><button class="btn_members"><a href = "#">出口至中國大陸產品產地標示障礙意見調查</a></button></li>
-                    <li><button class="btn_members"><a href = "#">2019年11月課程表</a></button></li>
-                    <li><button class="btn_members"><a href = "#">2019年11月報名表</a></button></li>
-                    <li><button class="btn_members"><a href = "#">「用水管理人員教育訓練」簡章</a></button></li>
-                    <li><button class="btn_members"><a href = "#">2019年臺灣國際塑橡膠暨複材工業展</a></button></li>
+                    <li><button class="btn_members" style="outline:none;"><a href = "#">中國大陸輸美之越野輪胎(Off-the Road Tires)反傾銷</a></button></li>
+                    <li><button class="btn_members" style="outline:none;"><a href = "#">出口至中國大陸產品產地標示障礙意見調查</a></button></li>
+                    <li><button class="btn_members" style="outline:none;"><a href = "#">2019年11月課程表</a></button></li>
+                    <li><button class="btn_members" style="outline:none;"><a href = "#">2019年11月報名表</a></button></li>
+                    <li><button class="btn_members" style="outline:none;"><a href = "#">「用水管理人員教育訓練」簡章</a></button></li>
+                    <li><button class="btn_members" style="outline:none;"><a href = "#">2019年臺灣國際塑橡膠暨複材工業展</a></button></li>
                 </ul>
             </div>
                   

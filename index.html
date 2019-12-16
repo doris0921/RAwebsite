@@ -8,7 +8,7 @@
         <title>台灣橡膠暨彈性體工業同業公會</title> 
     </head>
     <body style="font-family: Microsoft JhengHei; margin: 0 auto;  ">
-        <button class="GoToTop">TOP</button>
+        <button class="GoToTop" style="outline:none;">TOP</button>
            <div class="title">
                     <div id="language">
                         <li id="language_E"><a herf="#">ENGLISH  </a></li>
@@ -46,7 +46,7 @@
                     <a class="nav-link" href="websites.html">相關網站</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">聯絡我們</a>
+                    <a class="nav-link" href="#"onclick = "document.getElementById('light_contact_us').style.display='block';document.getElementById('fade_contact_us').style.display='block'">聯絡我們</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">廠商管理</a>
@@ -55,6 +55,24 @@
             
             </div>
             </nav>
+            <div id="light_contact_us" class="white_content">
+                <h2 style="text-align:center;">聯絡我們</h2>
+                <a href = "" onclick = "document.getElementById('light_contact_us').style.display='none';document.getElementById('fade_contact_us').style.display='none';history.go(-1)">X</a>
+                <form class="inputs">
+                    <select name="carlist" form="carform">
+                        <option value="opel">聯絡我們</option>
+                        <option value="saab">人才求職</option>
+                      </select>
+                    <input type="text" placeholder="姓名">
+                    <input type="text" placeholder="聯絡方式">
+                    <input type="text" placeholder="主旨">
+                    <textarea placeholder="輸入內容(求職請填寫基本資料及相關履歷)"></textarea>
+                    <div style="text-align:center;">
+                    <input type="submit">
+                </div>
+                  </form>
+            </div> 
+            <div id="fade_contact_us" class="black_overlay"></div>
                 <div class="c-carousel">
                     <ul class="c-carousel__slides">
                     <li><img src="includes/images/rubber1.jpg"></li>
@@ -68,7 +86,7 @@
                 <div class="context_title">最新消息</div>
                 <div class="new_context">
                     <div id="dates">2019-10-31</div>
-                    <div id="context">Text</div>
+                    <div id="context">檢送經濟部預告「商品驗證登錄辦法」部分條文修正草案</div>
                 </div>
 			</div>
 			<div id="publish">	
@@ -84,9 +102,8 @@
             <div id="contact">	
                     <div><p>台灣橡膠暨彈性體工業同業公會<br/>Taiwan Rubber & Elastomer Industries Association<br/>
                             台北市中正區寧波東街7號  7, Ningpo East Street, Taipei, Taiwan, R.O.C.<br/>
-                            TEL:886-2-23512261-5 FAX:886-2-23918886 <br/>
-                            Copyright@2007 Taiwan Rubber & Elastomer Industries Association</p></div>
-                            <button class="contact_link"><a href="#"> 立即聯絡我們</a></button>
+                            TEL:886-2-23512261-5 FAX:886-2-23918886 <br/></div>
+                            <button class="contact_link" style="outline:none;"> 立即聯絡我們</button>
             </div>
             
             <div id="bottom">

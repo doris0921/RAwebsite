@@ -63,7 +63,7 @@ iframe{
     background-color: #E0E1DC;
     margin: 0 auto;
 }
-.white_content { 
+/*.white_content { 
     display: none; 
     position: fixed; 
     top: 25%; 
@@ -74,7 +74,7 @@ iframe{
     background-color: #E0E1DC; 
     z-index:1002; 
     overflow: auto; 
-} 
+} */
 }
 @media screen and (max-width:1030px){
     .introduce{
@@ -134,7 +134,7 @@ iframe{
         margin-top: 50pt;
         margin-bottom: 50pt;
     }
-    .white_content { 
+   /* .white_content { 
         display: none; 
         position: fixed; 
         top: 20%; 
@@ -144,7 +144,7 @@ iframe{
         background-color: #E0E1DC; 
         z-index:1002; 
         overflow: auto; 
-    } 
+    } */
 }
 @media screen and (max-width:600px){
     .introduce{
@@ -325,7 +325,7 @@ ul li .btn_members a,ul li ul .btn_members_l a{
 }
 
 /*入會辦法&會址交通*/
-.black_overlay{ 
+/*.black_overlay{ 
     display: none; 
     position: fixed; 
     top: 0%; 
@@ -360,7 +360,7 @@ ul li .btn_members a,ul li ul .btn_members_l a{
 .white_content a:hover{
     text-decoration:none;
     color: #fff;
-}
+}*/
 #light_access iframe,#light_how iframe{
     margin-top: 20px;
     width: 80%;
