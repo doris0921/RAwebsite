@@ -131,6 +131,13 @@ li{list-style: none;}
 		  color: #fff;
 		  border-radius: 10px;
 	  }
+	  input[type="submit"]{
+		width: 100px;
+		height: 40px;
+		background-color: #415A78;
+		color: #fff;
+		border-radius: 10px;
+	  }
 	}
 	@media screen and (max-width:900px){
 		.white_content { 
