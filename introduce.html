@@ -22,7 +22,7 @@
                         <li id="title_E">TAIWAN RUBBER & ELASTOMER INDUSTRIES ASSOCIATION</li>
                     </div>
             </div>
-            <nav class="navbar navbar-expand-md navbar-dark justify-content-center">
+            <nav class="navbar navbar-expand-md navbar-dark justify-content-center sticky-top">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                             <!-- .navbar-toggler-icon 漢堡式選單Icon -->
                             <span class="navbar-toggler-icon"></span>
@@ -49,16 +49,16 @@
                         <a class="nav-link" href="websites.html">相關網站</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"onclick = "document.getElementById('light_contact_us').style.display='block';document.getElementById('fade_contact_us').style.display='block'">聯絡我們</a>
+                        <a class="nav-link" href="#contact_us"onclick = "document.getElementById('light_contact_us').style.display='block';document.getElementById('fade_contact_us').style.display='block'">聯絡我們</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">廠商管理</a>
+                        <a class="nav-link" href="#member_manage"onclick = "document.getElementById('light_member_manage').style.display='block';document.getElementById('fade_member_manage').style.display='block'">廠商管理</a>
                     </li>
                 </ul>
                 
                 </div>
                 </nav>
-                <div id="light_contact_us" class="white_content">
+                <div id="light_contact_us" class="white_content animate">
                     <h2 style="text-align:center;">聯絡我們</h2>
                     <a href = "" onclick = "document.getElementById('light_contact_us').style.display='none';document.getElementById('fade_contact_us').style.display='none';history.go(-1)">X</a>
                     <form class="inputs">
@@ -76,6 +76,18 @@
                       </form>
                 </div> 
                 <div id="fade_contact_us" class="black_overlay"></div>
+                <div id="light_member_manage" class="white_content animate">
+                    <h2 style="text-align:center;">廠商登入管理</h2>
+                    <a href = "" onclick = "document.getElementById('light_member_manage').style.display='none';document.getElementById('fade_member_manage').style.display='none';history.go(-1)">X</a>
+                   <form class="inputs" id="member_manage">
+                            <label for="uname"><b>Username</b></label>
+                            <input type="text" placeholder="Enter Username" name="uname" required>
+                            <label for="psw"><b>Password</b></label>
+                            <input type="password" placeholder="Enter Password" name="psw" required>
+                            <button type="submit">Login</button>
+                      </form>
+                </div> 
+                <div id="fade_member_manage" class="black_overlay"></div>
             <div class="introduce">公會基本資料</div>
             <div id="details">
                 <img src="includes/images/association.png">
@@ -125,7 +137,7 @@
                 <button class="btn_screen" style="outline:none;">
                     <a href = "#word" onclick = "document.getElementById('light_how').style.display='block';document.getElementById('fade_how').style.display='block'">入會辦法</a>
                 </button>
-                <div id="light_how" class="white_content">
+                <div id="light_how" class="white_content animate">
                     <h2>入會辦法</h2>
                     <a href = "#" onclick = "document.getElementById('light_how').style.display='none';document.getElementById('fade_how').style.display='none';history.go(-1)">X</a>
                     <iframe name="show" id="show" frameborder="0" src="HowToEnter.txt"></iframe>
@@ -135,7 +147,7 @@
                   <button class="btn_screen" style="outline:none;">
                         <a href = "#word" onclick = "document.getElementById('light_access').style.display='block';document.getElementById('fade_access').style.display='block'">會址交通</a>
                     </button>
-                    <div id="light_access" class="white_content">
+                    <div id="light_access" class="white_content animate">
                             <h2>會址交通</h2>
                             <a href = "#" onclick ="document.getElementById('light_access').style.display='none';document.getElementById('fade_access').style.display='none';history.go(-1)">X</a>
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.0438341785584!2d121.51772481532433!3d25.032586444501398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a99c1e40424f%3A0x1d185410b0686a6c!2z5Y-w54Gj5qmh6Iag5pqo5b2I5oCn6auU5bel5qWt5ZCM5qWt5YWs5pyD!5e0!3m2!1szh-TW!2stw!4v1575602409323!5m2!1szh-TW!2stw" frameborder="0" style="border:0;" allowfullscreen=""></iframe></br>

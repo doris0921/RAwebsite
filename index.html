@@ -19,7 +19,7 @@
                         <li id="title_E">TAIWAN RUBBER & ELASTOMER INDUSTRIES ASSOCIATION</li>
                     </div>
             </div>
-            <nav class="navbar navbar-expand-md navbar-dark justify-content-center">
+            <nav class="navbar navbar-expand-md navbar-dark justify-content-center sticky-top">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                         <!-- .navbar-toggler-icon 漢堡式選單Icon -->
                         <span class="navbar-toggler-icon"></span>
@@ -27,7 +27,7 @@
             <!-- Links -->
             <div  class="collapse navbar-collapse" id="navbarTogglerDemo01">
                 <ul class="navbar-nav mx-auto text-center">
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="introduce.html">公會簡介</a>
                 </li>
                 <li class="nav-item">
@@ -46,16 +46,16 @@
                     <a class="nav-link" href="websites.html">相關網站</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"onclick = "document.getElementById('light_contact_us').style.display='block';document.getElementById('fade_contact_us').style.display='block'">聯絡我們</a>
+                    <a class="nav-link" href="#contact_us"onclick = "document.getElementById('light_contact_us').style.display='block';document.getElementById('fade_contact_us').style.display='block'">聯絡我們</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">廠商管理</a>
+                    <a class="nav-link" href="#member_manage"onclick = "document.getElementById('light_member_manage').style.display='block';document.getElementById('fade_member_manage').style.display='block'">廠商管理</a>
                 </li>
             </ul>
             
             </div>
             </nav>
-            <div id="light_contact_us" class="white_content">
+            <div id="light_contact_us" class="white_content animate">
                 <h2 style="text-align:center;">聯絡我們</h2>
                 <a href = "" onclick = "document.getElementById('light_contact_us').style.display='none';document.getElementById('fade_contact_us').style.display='none';history.go(-1)">X</a>
                 <form class="inputs">
@@ -73,6 +73,18 @@
                   </form>
             </div> 
             <div id="fade_contact_us" class="black_overlay"></div>
+            <div id="light_member_manage" class="white_content animate">
+                <h2 style="text-align:center;">廠商登入管理</h2>
+                <a href = "" onclick = "document.getElementById('light_member_manage').style.display='none';document.getElementById('fade_member_manage').style.display='none';history.go(-1)">X</a>
+               <form class="inputs" id="member_manage">
+                        <label for="uname"><b>Username</b></label>
+                        <input type="text" placeholder="Enter Username" name="uname" required>
+                        <label for="psw"><b>Password</b></label>
+                        <input type="password" placeholder="Enter Password" name="psw" required>
+                        <button type="submit">Login</button>
+                  </form>
+            </div> 
+            <div id="fade_member_manage" class="black_overlay"></div>
                 <div class="c-carousel">
                     <ul class="c-carousel__slides">
                     <li><img src="includes/images/rubber1.jpg"></li>

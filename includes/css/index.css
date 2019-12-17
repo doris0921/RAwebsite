@@ -1,5 +1,10 @@
 li{list-style: none;}
 
+.container {
+    display: block;
+    float: none;
+  }
+
 .title{
 	padding: 0;
 	margin: 0;
@@ -32,6 +37,24 @@ li{list-style: none;}
 	filter: alpha(opacity=88); 
 	overflow-y: hidden;
   } 
+
+/* Add Zoom Animation */
+.animate {
+	-webkit-animation: animatezoom 0.6s;
+	animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+	from {-webkit-transform: scale(0)}
+	to {-webkit-transform: scale(1)}
+  }
+  
+  @keyframes animatezoom {
+	from {transform: scale(0)}
+	to {transform: scale(1)}
+  }
+
+
   @media screen{
 	.white_content { 
 		display: none; 
@@ -67,7 +90,7 @@ li{list-style: none;}
 		text-decoration:none;
 		color: #fff;
 	}
-	input[type="text"]:nth-child(2){
+	#light_contact_us input[type="text"]:nth-child(2){
 		width: 40%;
 		margin-bottom: 10px;
 	  }
@@ -76,7 +99,7 @@ li{list-style: none;}
 		margin-top: 20px;
 	  }
 	  input[type="text"]:nth-child(3){
-		width: 45%;
+		width: 55%;
 		margin-bottom: 10px;
 	  }
 	  input[type="text"]:nth-child(4){
@@ -87,6 +110,26 @@ li{list-style: none;}
 	  textarea{
 		width: 90%;
 		height: 300px;
+	  }
+	  #light_member_manage input[type="text"]:nth-child(2){
+		width: 70%;
+		margin-bottom: 10px;
+	  }
+	  #light_member_manage input[type="password"]{
+		width: 70%;
+		margin-bottom: 10px;
+	  }
+	  #member_manage{
+		  width: 50%;
+		  margin-top: 150px;
+	
+	  }
+	  #member_manage button{
+		  width: 100%;
+		  height: 40px;
+		  background-color: #415A78;
+		  color: #fff;
+		  border-radius: 10px;
 	  }
 	}
 	@media screen and (max-width:900px){
@@ -368,6 +411,14 @@ li{list-style: none;}
 		border: none;
 		border-radius: 15px;
 	}
+	#light_member_manage input[type="text"]:nth-child(2){
+		width: 100%;
+		margin-bottom: 10px;
+	  }
+	  #light_member_manage input[type="password"]{
+		width: 100%;
+		margin-bottom: 10px;
+	  }
 	}
 
 /*輪播圖*/

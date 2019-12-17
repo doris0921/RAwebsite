@@ -5,7 +5,14 @@ $(".GoToTop").click(function(){
         return false;
 });
 
+var modal = document.getElementById('id01');
 
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
 //首頁橡膠滾動
 var carousel = function carousel(options) {
 
